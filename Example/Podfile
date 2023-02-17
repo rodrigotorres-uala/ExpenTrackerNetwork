@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ExpenTrackerNetwork_Example' do
+  pod 'ExpenTrackerNetwork', :path => '../'
+
+  target 'ExpenTrackerNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
