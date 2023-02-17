@@ -1,0 +1,16 @@
+PODS:
+  - ExpenTrackerNetwork (0.1.0)
+
+DEPENDENCIES:
+  - ExpenTrackerNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  ExpenTrackerNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExpenTrackerNetwork: f601381245aeb6104836838feda19be33eb7e538
+
+PODFILE CHECKSUM: de68743636746aba9b8e97b00613e1ce25585f3d
+
+COCOAPODS: 1.11.3

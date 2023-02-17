@@ -1,0 +1,6 @@
+framework module ExpenTrackerNetwork {
+  umbrella header "ExpenTrackerNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

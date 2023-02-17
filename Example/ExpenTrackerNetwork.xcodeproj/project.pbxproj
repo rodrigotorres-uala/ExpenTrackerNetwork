@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		13B56D96A56CCE4E08DCC9DB /* Pods-ExpenTrackerNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenTrackerNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-ExpenTrackerNetwork_Example/Pods-ExpenTrackerNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		153E9723AAA0C060AE61669F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		153E9723AAA0C060AE61669F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1AE013999FC23E6E880586B2 /* Pods-ExpenTrackerNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenTrackerNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-ExpenTrackerNetwork_Example/Pods-ExpenTrackerNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2BC3040B4720F6BA81ADD923 /* Pods-ExpenTrackerNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenTrackerNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ExpenTrackerNetwork_Tests/Pods-ExpenTrackerNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ExpenTrackerNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenTrackerNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6473CC5155EBA7680034759C /* Pods_ExpenTrackerNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpenTrackerNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A420CF631415B3B260B6CB /* ExpenTrackerNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpenTrackerNetwork.podspec; path = ../ExpenTrackerNetwork.podspec; sourceTree = "<group>"; };
+		87A420CF631415B3B260B6CB /* ExpenTrackerNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ExpenTrackerNetwork.podspec; path = ../ExpenTrackerNetwork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A01766A6D2C0A8C8F13DC2BE /* Pods-ExpenTrackerNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenTrackerNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-ExpenTrackerNetwork_Tests/Pods-ExpenTrackerNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B7E3943E7AB487D4D0158AB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B7E3943E7AB487D4D0158AB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC054E1FBD6767ECD698F9AC /* Pods_ExpenTrackerNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpenTrackerNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				2BC3040B4720F6BA81ADD923 /* Pods-ExpenTrackerNetwork_Tests.debug.xcconfig */,
 				A01766A6D2C0A8C8F13DC2BE /* Pods-ExpenTrackerNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

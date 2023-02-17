@@ -1,0 +1,22 @@
+{
+  "name": "ExpenTrackerNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of ExpenTrackerNetwork.",
+  "description": "Description",
+  "homepage": "https://github.com/rodrigotorres-uala/ExpenTrackerNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rodrigotorres-uala": "rodrigo.torres@uala.com.ar"
+  },
+  "source": {
+    "git": "https://github.com/rodrigotorres-uala/ExpenTrackerNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "ExpenTrackerNetwork/Classes/**/*"
+}

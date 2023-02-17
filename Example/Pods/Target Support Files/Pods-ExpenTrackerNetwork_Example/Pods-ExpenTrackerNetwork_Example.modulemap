@@ -1,0 +1,6 @@
+framework module Pods_ExpenTrackerNetwork_Example {
+  umbrella header "Pods-ExpenTrackerNetwork_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
